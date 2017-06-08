@@ -8,7 +8,9 @@ import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class TestHttpPost {
+import com.sun.service.InitializeProperties;
+
+public class HttpPost {
 	
 	public static void main(String[] args) {
 		try {
@@ -19,7 +21,7 @@ public class TestHttpPost {
 	}
 	public static void post() throws IOException{
 	
-	    URL url = new URL("http://localhost:8082/NewWork/http.do");
+	    URL url = new URL(InitializeProperties.NEWWORK_URL);
 	    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
 	
 	    httpURLConnection.setDoInput(true);

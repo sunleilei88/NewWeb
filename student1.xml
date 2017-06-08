@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<student name="zhangsan">
+  <hello age="13" name="wws">hello Text</hello>
+  <world age="12" name="www">world text</world>
+</student>
