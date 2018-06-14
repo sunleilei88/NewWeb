@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel desc="test1" name="test1.do">
+	<send>
+		<field name="name" desc="姓名" required="true"
+			comment=" " />
+		<field name="age" desc="年龄" required="true"
+			comment=" " />
+	</send>
+	<return>
+		<field name=" " desc=" " />
+		<field name=" " desc=" " />
+	</return>
+</channel>

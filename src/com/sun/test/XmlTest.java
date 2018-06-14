@@ -30,7 +30,7 @@ public class XmlTest {
         {  
          XmlTest dom4j= new XmlTest();  
          try {  
-            dom4j.objectToXml();  
+            dom4j.xmlToObject();  
         } catch (Exception e) {  
             // TODO Auto-generated catch block  
             e.printStackTrace();  
