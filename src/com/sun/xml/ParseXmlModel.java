@@ -18,7 +18,6 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.DOMReader;
 import org.dom4j.io.SAXReader;
-import org.hibernate.validator.util.GetClassLoader;
 import org.xml.sax.SAXException;
 
 import sun.security.util.Resources;
