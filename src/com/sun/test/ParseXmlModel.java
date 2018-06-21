@@ -37,7 +37,6 @@ public class ParseXmlModel {
 		Document document = saxReader.read(new File(fileurl));
 		// 获取根元素
 		Element root = document.getRootElement().element("send");
-
 		System.out.println("解析XML模板开始-----------------------");
 		// 迭代输出
 		for (Iterator iter = root.elementIterator(); iter.hasNext();) { // 获取根目录下的元素
